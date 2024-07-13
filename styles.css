@@ -43,12 +43,6 @@ body {
 	font-family: "Aleo";
 }
 
-.domtext {
-}
-
-.subtext {
-}
-
 .title_subtitle h1{
 	margin: 0;
 	padding: 0;
@@ -76,7 +70,8 @@ body {
 }
 
 .nav a:hover {
-	background-color: white;
+	background-color: rgba(0, 0, 0, .3);
+	border-radius: 10%;
 }
 
 header {
@@ -107,9 +102,9 @@ h3 {
 }
 
 .container {
-	max-width: 900px;
+	max-width: 55%;
 	margin: 0 auto;
-	padding: 0, 1.5em;
+	padding: 0, 20%;
 }
 
 .snowy {
